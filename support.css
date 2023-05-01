@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0%;
+}
+.main{
+    background-color: #a45ee5;
+    height: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.head1{
+    font-size:30px;
+    padding-top: 40px;
+    padding-left: 140px;
+    color: white;
+    font-family: 'Signika Negative',sans-serif;
+}
+.pree{
+    color: white;
+    font-family: 'Signika Negative',sans-serif;
+    font-size: 18px;
+    padding-top: 50px;
+    padding-left: 100px;
+
+}
+.over{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 300px;
+    height:270px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #a45ee5;
+}
+.over h1{
+    font-family: 'Signika Negative',sans-serif;
+    color: #a45ee5;
+    padding-left: 10px;
+}
+.over pre{
+    font-family: 'Signika Negative',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #a45ee5;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.over2{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    width: 300px;
+    height:270px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #a45ee5;
+}
+.over2 h1{
+    font-family: 'Signika Negative',sans-serif;
+    color: #a45ee5;
+    padding-left: 10px;
+}
+#wick{
+    text-decoration: underline;
+    display: inline-block;
+    font-family: 'Signika Negative',sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #a45ee5;
+    margin-top: 30px;
+    padding-left: 60px;
+}
+#fro{
+    text-decoration: underline;
+    display: block;
+    font-family: 'Signika Negative',sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #a45ee5;
+    margin-top: 50px;
+    padding-left: 80px;
+}
+.over3{
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    width: 300px;
+    height:270px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #a45ee5;
+}
+.over3 h1{
+    font-family: 'Signika Negative',sans-serif;
+    color: #a45ee5;
+    padding-left: 10px;
+}
+.over3 pre{
+    font-family: 'Signika Negative',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #a45ee5;
+    padding-top: 16px;
+    padding-left:50px;
+}
+.icons{
+    position: absolute;
+    top: 15%;
+    left:30px;
+ }
+ .icons a{ 
+     text-decoration: none;
+     color:#a45ee5;
+     display: block;
+ }
+ .icons ion-icon{
+ 
+     font-size:30px;
+     padding-left: 14px;
+     padding-top:15px;
+     transition:0.3s  ease;
+ }
+ .icons ion-icon:hover{
+     color:black;
+ }

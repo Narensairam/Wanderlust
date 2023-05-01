@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
+*{
+    margin:0%;
+    padding:0px;
+}
+body{
+    background-color: white;
+}
+.navq{
+    background-color: blueviolet;
+    width: 100%;
+    height:90px;
+}
+.navq h1{
+    color:white;
+    font-size:35px;
+    font-family: monospace;
+    font-weight: bold;
+    text-shadow: 2px 1px white;
+    padding-left:20px;
+    padding-top:8px;
+    position: absolute;
+    z-index: 2;
+    top:14px;
+}
+#home{
+    font-family:'Braah One',cursive;
+    margin-top: 35px;
+    font-weight:bold;
+    display:inline-block;
+    margin-left: 500px;
+    font-size:20px;
+}
+.navq ul li{
+    font-family:'Braah One',cursive;
+    margin-top: 35px;
+    font-weight:bold;
+    display:inline-block;
+    margin-left: 200px;
+    font-size:20px;
+}
+.navq ul li a{
+    text-decoration: none;
+    color:white;
+}
+.navq ul li::after{
+    content:"";
+    width:0%;
+    height:3px;
+    background: white;
+    margin:auto;
+    display:block;
+    transition:0.5s
+}
+.navq ul li:hover::after{
+    width:100%;
+}
+.islands img{
+    margin-top: 60px;
+    margin-left: 90px;
+    border-radius: 20px;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.islands img:hover {
+    opacity: 0.3;
+  }
+.fg,.mg,.bali {
+    display: inline-block;
+}
+.darj,.wen,.inns{
+    display:inline-block;
+}
+.par,.mp,.col{
+    display: inline-block;
+}
+#mg{
+        transition: .5s ease;
+        z-index: -1;
+        position: absolute;
+        top: 30%;
+        left: -10px;
+        text-align: center;
+        font-size: 16px;
+        padding: 16px 32px;
+}
+#fg{
+        transition: .5s ease;
+        z-index: -1;
+        position: absolute;
+        top: 30%;
+        left: 460px;
+        text-align: center;
+        font-size: 16px;
+        padding: 16px 32px;
+}
+#bali{
+        transition: .5s ease;
+        z-index: -1;
+        position: absolute;
+        top: 30%;
+        left: 1000px;
+        text-align: center;
+        font-size: 16px;
+        padding: 16px 32px;
+}
+#darj{
+    transition: .5s ease;
+    z-index: -1;
+    position: absolute;
+    top: 90%;
+    left: -10px;
+    text-align: center;
+    font-size: 16px;
+    padding: 16px 32px;
+}  
+#wen{
+    transition: .5s ease;
+    z-index: -1;
+    position: absolute;
+    top: 90%;
+    left: 460px;
+    text-align: center;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+#inns{
+    transition: .5s ease;
+    z-index: -1;
+    position: absolute;
+    top: 90%;
+    left: 930px;
+    text-align: center;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+#par{
+    transition: .5s ease;
+    z-index: -1;
+    position: absolute;
+    top: 1150px;
+    left: -95px;
+    text-align: center;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+#mp{
+    transition: .5s ease;
+    z-index: -1;
+    position: absolute;
+    top: 1150px;
+    left: 375px;
+    text-align: center;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+#col{
+    transition: .5s ease;
+    z-index: -1;
+    position: absolute;
+    top: 1150px;
+    left: 950px;
+    text-align: center;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.footer{
+    padding-top:100px;
+    background-color:blueviolet;
+    color:white;
+    height:400px;
+    margin-top:50px;
+}
+.footer h3{
+    margin-left: 100px;
+    font-size:20px;
+}
+.app{
+    letter-spacing: 20px;
+    margin-left: 100px; 
+    font-size: 30px;
+}
+.line{
+    text-align: center;
+}
+.ter ul{
+    margin-left:100px;
+}
+.ter ul li{
+    display:inline-block;
+    font-size:17px;
+}
+.ter ul li a{
+    text-decoration: none;
+    color:white;  
+}
+.div{
+    margin-right:1200px;
+    font-size: 18px;
+    padding:8px 15px;
+    box-sizing:border-box;
+    transition: 0.5s;
+    margin-left:10px;
+}

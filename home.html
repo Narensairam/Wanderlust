@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#Wanderlust</title>
+    <link rel="stylesheet" href="C:\Users\Naren\Desktop\web\home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/1d9b3f57e5.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class = "gee">
+        <video id = "yee" autoplay loop muted plays-inline>
+            <source src="C:\Users\Naren\Desktop\web\rett.mp4" type="video/mp4"/>
+        </video>
+        <nav>
+            <div class="navq">
+                <ul>
+                    <li><a href="C:\Users\Naren\Desktop\web\locations.html">Locations</a></li>
+                    <li><a href="#">Escorts</a></li>
+                    <li><a href="C:\Users\Naren\Desktop\web\support.html">Support</a></li>
+                    <li><a href="C:\Users\Naren\Desktop\web\login.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>#Wanderlust</h1>
+        <h3>Welcome to Wanderlust!</h3>
+        <pre>
+            At Wanderlust, we believe that travel is not just about visiting new places, but also about
+            experiencing new cultures, meeting new people, and creating lifelong memories. Our
+            mission is to provide exceptional travel experiences that are tailor-made to suit your
+            preferences and needs.
+            
+            Whether you're looking for an adventure trip, a cultural immersion, a luxury escape, or a
+            family vacation, we've got you covered. Our team of experienced travel experts will work with 
+            you to design a travel itinerary that fits your budget and preferences, taking care of every 
+            detail so that you can relax and enjoy your journey.<span id="dots">...</span><span id="more">
+            
+            We're passionate about sustainable tourism, and we're committed to leaving a positive 
+            impact on the destinations we visit. That's why we partner with local communities, support 
+            environmental initiatives, and promote responsible travel practices.
+            
+            At Wanderlust, we're more than just a travel company. We're a community of passionate 
+            travelers who share a love for adventure, exploration, and discovery. Join us on this exciting 
+            journey, and let us help you make your travel dreams come true!
+            
+            Ready to start your adventure? Contact us today to plan your next trip!</span></pre>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+        <div class="icons">
+            <a target = "_blank" href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a><br><br><br><br>
+            <a target = "_blank" href="https://twitter.com/?lang=en-in"><ion-icon name="logo-twitter"></ion-icon></a><br><br><br><br>
+            <a target = "_blank" href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a><br><br><br><br>
+            <a target = "_blank" href="https://www.skype.com/en/"><ion-icon name="logo-skype"></ion-icon></a>
+        </div>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </div>
+    <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+            btnText.style.top = "73%";
+            btnText.style.left = "73px";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+            btnText.style.top = "95%";
+            btnText.style.left = "40%";
+
+          }
+        }
+        </script>
+        
+</body>
+</html>

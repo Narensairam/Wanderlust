@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
+*{
+    margin:0%;
+    padding:0px;
+}
+body{
+    background-color: white;
+    overflow: hidden;
+}
+.gee{
+    overflow: hidden;
+}
+.gee h1{
+    color:white;
+    font-size: 100px;
+    font-family:'poppins',sans-serif;
+    position:absolute;
+    z-index: 1;
+    top:150px;
+}
+.gee h3{
+    color: white;
+    font-family: 'poppins',sans-serif;
+    position: absolute;
+    left:73px;
+    top: 38%;
+}
+.gee pre{
+    color: white;
+    font-family:'poppins',sans-serif;
+    position: absolute;
+    left:20px;
+    top: 43%;
+}
+#more{
+    display: none;
+    z-index:1;
+}
+#myBtn{
+    position: absolute;
+    z-index: 1;
+    top:80%;
+    left: 73px;
+    background-color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+#gee yee{
+    position: absolute;
+    z-index: -1;
+}
+.navq{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.navq ul li{
+    font-family:'Braah One',cursive;
+    font-weight:bold;
+    margin-top:25px;
+    margin-left:225px;
+    display:inline-block;
+    font-size:25px;
+}
+.navq ul li a{
+    text-decoration: none;
+    color:white;
+}
+.navq ul li::after{
+    content:"";
+    width:0%;
+    height:3px;
+    background: white;
+    margin:auto;
+    display:block;
+    transition:0.5s
+}
+.navq ul li:hover::after{
+    width:100%;
+}
+.icons{
+    position: absolute;
+    top: 25%;
+    right:15px;
+ }
+ .icons a{ 
+     text-decoration: none;
+     color:white;
+ }
+ .icons ion-icon{
+ 
+     font-size:30px;
+     padding-left: 14px;
+     padding-top:5px;
+     transition:0.3s  ease;
+ }
+ .icons ion-icon:hover{
+     color:#00514c;
+ }
+
