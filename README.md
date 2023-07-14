@@ -2,7 +2,7 @@
 
 In this repository, you will find a comprehensive collection of code and resources related to the creation of the front-end for a travel website. Designed with user experience and aesthetics in mind, this project aims to deliver a visually stunning and intuitive interface for travelers to explore and plan their adventures.
 
-Key Features:
+## Key Features:
 
 Responsive Design:
 Ensuring that the website looks and functions seamlessly across various devices and screen sizes is a top priority. The codebase includes responsive design techniques, allowing the website to adapt gracefully to mobile, tablet, and desktop environments.
@@ -22,6 +22,9 @@ We believe in inclusivity and aim to make the website accessible to all users. T
 Modular and Scalable Architecture:
 The codebase follows modular and scalable architectural patterns, making it easy to maintain, extend, and customize. With well-documented code and clearly defined components, future development and collaboration become seamless and efficient.
 
-Feel free to explore the repository and leverage the code and resources to kickstart your own travel website front-end development. Whether you're a beginner looking to learn or an experienced developer seeking inspiration, this project offers valuable insights and practical implementation examples.
+## Tools used:
+- html5
+- CSS
+- Javascript
 
-Your contributions, feedback, and suggestions are highly encouraged. Let's work together to create exceptional front-end experiences for travel enthusiasts worldwide. Happy coding!
+
